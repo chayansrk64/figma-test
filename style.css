@@ -1,0 +1,386 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+ #section-home{
+    background-image: url(./pic/Cover\ Photo.png);
+    background-position: center;
+} 
+ 
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: inline-block;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+ 
+ input[type="text"]{
+    height: 30px;
+    width: 300px;
+    margin-top: 30px;
+    border-radius: 10px;
+} 
+.nav-bar ul li{  
+  display: inline;  
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    letter-spacing: 3px;
+    margin: 0 15px ;
+    text-transform: uppercase;
+    color: #F60AD1;
+    font-weight: 700;
+}
+.nav-bar2{
+    text-align: center;
+    height: 150px;
+    width: 150px;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: #F60AD1;
+}
+.nav-bar2 .fa-solid{   
+    margin-top: 38%;
+    color: white;
+    font-size: 2.2rem;
+}
+.heading{
+    width: 700px;
+   
+    height: auto;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+.heading h1{
+    color:white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    letter-spacing: 7px;
+    font-family: 'Amatic SC', cursive;    
+}
+.details{
+    
+    height: 225px;
+    margin-top: 50px;
+}
+.link{
+    background-color: #F60AD1;
+    height: 84px;
+}
+.link a{
+    text-align: center;
+    display:block;
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding-top: 30px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+}
+.details{
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(rgba(9, 32, 50, 0.8), rgba(9, 32, 50, 0.8))
+}
+.details .contents{
+    
+    width: 377px;
+    height: 148px;
+    margin-top: 30px;
+    padding-left: 15px;
+}
+ 
+.progress .progress-bar{
+    background-color:#F60AD1;   
+}
+ .contents h4{
+    margin-top:15px;
+    
+ }
+.contents h3, h4{
+    color: white;
+     
+}
+.contents h3{
+    letter-spacing: 5px;
+    font-weight: 900;
+}
+.contents p{
+    color:#F60AD1;
+    font-size: 0.8rem;
+    line-height: 16px;
+}
+
+/* ----header 2 section start ------ */
+#section2{
+    height: 1024px;
+    
+}
+
+.header-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%; 
+    justify-content: center;
+    margin: 0 auto;   
+}
+.header-container .section2-header{
+    grid-column: 1 / -1;
+    text-align: center;
+    margin-top: 20px;
+}
+.section2-header h2{
+    font-size: 2.4rem;
+    font-weight: 700;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+
+}
+.section2-header span{
+   font-size: 2.4rem;
+   letter-spacing: 5px;
+   font-family: 'Fredericka the Great', cursive;   
+}
+.section2-header h5{
+    opacity: 0.7;
+    padding-bottom: 15px;
+}
+.section2-header p{
+    line-height: 18px;
+    color: darkslategrey;
+}
+.header-container .products{
+      
+     height: 580px;
+     align-items: center;
+     justify-content: center;
+     margin: 0 auto;
+     margin-top: 20px;
+     margin-bottom: 25px;
+}
+.header-container .products{
+    width: 100%;
+   
+}
+.products-link a{
+    color: #F60AD1;
+    text-decoration: none;
+    padding-top: 8px;
+    letter-spacing: 3px;
+    display: block;
+    font-weight: 600;
+}
+.products-hed h3{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    font-weight: 700;
+    margin-top: 20px; 
+}
+.products-hed h5{
+    color: white;
+    font-size: 0.9rem;
+    margin-bottom: 30px;
+     
+}
+.products .product-edit{
+    width: 90%;
+    height: 578px;
+    margin: 0 auto;
+    
+    background-color: #130E48;
+    padding: 10px;
+
+    
+}
+.product-edit .detail{
+    font-weight: 600;
+    height: 300px;
+    width: 50%;
+    float: left;
+    margin-top: 30px;
+    
+}
+.product-edit .pic{
+    float: right;
+   
+    height: 300px;
+    width: 50%;
+    margin-top: 30px;
+    
+}
+.product-edit .detail p{
+    font-size: 12px;
+    line-height: 15px;
+    text-align: right;
+    color: white;
+}
+.product-edit .pic img{
+    width: 150%;
+    margin-left: -35px;    
+}
+  
+.link2{
+    border: 1px solid white;
+    display: inline-block;
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    margin-left:35px;
+}
+.link2 a{
+    color: #F60AD1;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    display:flex;
+    justify-content: center;
+    margin-top: 9px;
+    padding-left: 5px;
+}
+
+
+/* edit....edit..... edit... */
+ 
+#section2{
+    height: 1024px;
+    
+}
+
+.header-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%; 
+    justify-content: center;
+    margin: 0 auto;   
+}
+.header-container .section2-header{
+    grid-column: 1 / -1;
+    text-align: center;
+    margin-top: 20px;
+}
+.section2-header h2{
+    font-size: 2.4rem;
+    font-weight: 700;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+
+}
+.section2-header span{
+   font-size: 2.4rem;
+   letter-spacing: 5px;
+   font-family: 'Fredericka the Great', cursive;   
+}
+.section2-header h5{
+    opacity: 0.7;
+    padding-bottom: 15px;
+}
+.section2-header p{
+    line-height: 18px;
+    color: darkslategrey;
+}
+.header-container .products2{
+      
+     height: 580px;
+     align-items: center;
+     justify-content: center;
+     margin: 0 auto;
+     margin-top: 20px;
+     margin-bottom: 25px;
+}
+.header-container .products2{
+    width: 100%;
+   
+}
+.products-link2 a{
+    font-weight: 600;
+    color: #F60AD1;
+    text-decoration: none;
+    padding-top: 8px;
+    letter-spacing: 3px;
+    display: block;
+}
+.products-hed2 h3{
+    
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    font-weight: 700;
+    margin-top: 20px; 
+}
+.products-hed2 h5{
+    
+    font-size: 0.9rem;
+    margin-bottom: 30px;
+     
+}
+.products2 .product-edit2{
+    width: 90%;
+    height: 578px;
+    margin: 0 auto;
+    border: 1px solid;
+    padding: 10px; 
+}
+.product-edit2 .detail{
+    font-weight: 600;
+    height: 300px;
+    width: 50%;
+    float: left;
+    margin-top: 30px;
+    
+}
+.product-edit2 .pic{
+    float: right;
+   
+    height: 300px;
+    width: 50%;
+    margin-top: 30px;
+    
+}
+.product-edit2 .detail p{
+    font-size: 12px;
+    line-height: 15px;
+    text-align: right;
+     
+}
+.product-edit2 .pic img{
+    width: 150%;
+    margin-left: -35px;    
+}
+  
+.link2-2{
+    background-color: #F60AD1;
+    display: inline-block;
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    margin-left:35px;
+}
+.link2-2 a{
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    display:flex;
+    justify-content: center;
+    margin-top: 9px;
+    padding-left: 5px;
+}
+
+
+
+ 
+/* ----header 2 section end------ */
+
+ 
+
+ 
