@@ -222,7 +222,7 @@
     color: white;
 }
 .product-edit .pic img{
-    width: 150%;
+    width: 100%;
     margin-left: -35px;    
 }
   
@@ -251,10 +251,8 @@
 /* edit....edit..... edit... */
  
 #section2{
-    height: 1024px;
-    
+    height: auto;
 }
-
 .header-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -351,7 +349,7 @@
      
 }
 .product-edit2 .pic img{
-    width: 150%;
+    width: 100%;
     margin-left: -35px;    
 }
   
@@ -494,6 +492,7 @@ letter-spacing: 10px;
     background-color:#FF00FF;
     margin-left: 10px;
     margin-right: 20px;
+    border: 1px solid white;
     
 }
 .section3-para button a{
@@ -563,6 +562,7 @@ text-transform: uppercase;
    background-color:#FF00FF;
    margin-left: 10px;
    margin-right: 20px;
+   border: 1px solid white;
    
 }
 .section3-para2 ul li{
@@ -578,9 +578,192 @@ text-transform: uppercase;
    
 }
 
-
-
 /* ------section 3 end------- */
+/* - ------section 4 start------- - */
+.section4-container{
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.section4-header{
+    grid-column: 1/-1;
+    padding-top: 50px;
+    padding-left: 50px;
+    height: 200px;
+}
+.section4-header h2 span{
+    text-transform: uppercase;
+    color: #130E48;
+    font-size: 48px;
+    letter-spacing: 10px;
+}
+.section4-header h2{
+    font-size: 48px;
+    letter-spacing: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.section4-header .border2{
+    background-color: #130E48;
+    width: 62px;
+}
+.text-area{
+    height: 400px;
+    grid-column: 1/4;
+}
+.form{
+    grid-column: 4/-1;
+    margin-top: 20px;
+    margin-left: 50px;
+    height: 300px;
+}
+
+#text-area{
+    border: 1px solid black;
+    margin-left: 40px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.address{
+    margin: 20px 40px;
+    height: 100px;
+    width: 180px;
+}
+.address h5{
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+.address p{
+    line-height: 19px;
+    font-size: 0.89em;
+}
+.input-edit{
+    border-bottom: 2px solid black;
+    padding: 10px;
+    width: 300px;
+}
+#your-name{
+    border-bottom: 2px solid black;
+    border-radius: 0;
+}
  
+.edit-button{
+    display: block;
+    background-color: #130E48;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-left: 140px;
+    margin-top: 66px;
+    padding:5px;
+    width: 170px;   
+}
+
+.section4-container .link{
+    grid-column: 1/-1;
+}
+/* - ------section 4 end------- - */
+
+/* --------footer ---------------------- */
+.footer{
+    display: flex;
+    height: 380px;
+    background-color: #000000; 
+}
+.brand-pic{
+    height: 380px;
+    width: 30%;
+    position: relative;
+    
+}
+.add-brand-pic{
+    margin: 0 auto;
+    width: 80%;
+    top: 80px;
+    left: 60px;
+    position: absolute;
+}
+.brand-pic img{
+    width: 100%;
+    object-fit: cover;
+     
+}
+.footer-links{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 70%;
+}
+.footer-hedear{
+    grid-column: 1/-1;
+    background-color: #000000;
+}
+.footer-hedear h5{
+    color: white;
+    font-size: 24px;
+     margin-top: 75px;
+     margin-left: 25px;
+     margin-bottom: -20px;
+    
+}
+ 
+.footer-product p{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+    padding-left: 30px;
+
+}
+.footer-product ul li{
+    list-style-type: none;
+}
+.footer-product ul li a{
+    text-decoration: none;
+    color: white;
+}
+.footer-product ul li a:hover{
+    text-decoration: underline;
+}
+.an-sign{
+    grid-column: 4/-1;
+    
+}
+.an-line{
+    height: 150px;
+    width: 1px;
+    background-color: white;
+    transform: rotate(-135deg);
+    position: absolute;
+    margin-left: -6px;
+    margin-top: 20px;
+}
+.footer-contact-us{
+    margin-left: 100px;
+}
+.footer-contact-us p{
+    font-weight: 600;
+    color: white;
+    font-size: 1.2rem;
+}
+.icons a i {
+    font-size: 2rem;
+    color: white;
+    padding-left: 5px;
+     
+}
+.copyright{
+    color: white;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+.copyright a{
+    text-decoration: none;
+    color: white;
+}
+.copyright a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+
 
  
